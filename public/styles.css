@@ -3,7 +3,7 @@ html, body {
 }
 
 body {
-  background-image: url(./old_moon.png);
+  background-image: url("./old_moon.png");
   margin: 0;
   display: flex;
 
