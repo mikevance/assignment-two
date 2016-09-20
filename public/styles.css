@@ -3,7 +3,7 @@ html, body {
 }
 
 body {
-  background-image: url("./old_moon.png");
+  background-image: url("https://mikevance.github.io/assignment-two/public/old_moon.png");
   margin: 0;
   display: flex;
 
