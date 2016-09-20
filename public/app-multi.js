@@ -13,12 +13,11 @@ function setup() {
 }
 
 function draw(){
-  translate(mouseX);
   for(var x=0;x<windowWidth/10;x++){
       push();
       translate(random(width), random(height));
       rotate(random(2*PI));
-      scale(random(1.5,1.0,3.5));
+      scale(random(1.5,1.0,2.5));
       makeCup();
       pop();
     }
@@ -37,7 +36,7 @@ function makeInstructions() {
   fill(255, 255, 255, 255);
   textSize(12)
   textStyle(BOLD)
-  text("Press 'R' to generate new design!", 10, 15);
+  text("Press 'R' to generate a new design!", 10, 15);
 }
 
 function keyPressed() {

@@ -14,3 +14,17 @@ body {
   align-items: center;
   overflow: hidden;
 }
+
+.btn {
+  font-family: Courier New;
+  color: #ffffff;
+  font-size: 45px;
+  background: #d9345d;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  text-decoration: none;
+}
